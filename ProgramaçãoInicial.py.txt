@@ -1,0 +1,15 @@
+nome: str = input ('qual o seu nome? ')
+print ('Olá' , nome, '! Prazer em te conhecer!')
+print('Agora veremos se vc é alto, medio ou baixo. Digite 150 para menos de 1,5 metros ; 170 para entre 1,5 e 1,7 metros e 180 para mais de 1,7 metros de altura.'
+      '')
+altura: float = input('Qual a sua altura? ')
+
+if altura == 150:
+    print("Ok, ", nome, ". Com ", altura, "cm você tem baixa estatura")
+
+elif altura == 170:
+    print('Ok, ', nome , '. Com ', altura,'cm você tem média estatura')
+
+else:
+    print('Ok, ', nome , '. Com ', altura,'cm você tem alta estatura')
+
